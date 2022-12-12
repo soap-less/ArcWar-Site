@@ -1,15 +1,15 @@
 export default function About() {
   return (
     <div className="line-height:1 overflow-x-hidden flex flex-col items-center justify-center text-center lg:h-full py-4 sm:p-5">
-      <a
+      <p
         style={{
           fontFamily: "Dolce Vita Light",
           color: "white",
         }}
-        className="py-4 text-2xl font-bold sm:text-3xl"
+        className="py-4 text-2xl font-bold sm:text-3xl grid grid-cols-10"
       >
-        <span style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}}>8 TEAMS</span> FROM ACROSS SOUTHERN CALIFORNIA COMPETE<br /> in a COD:MWII tournament at the Laser Esports Arena.
-      </a>
+        <span className="col-span-10 md:col-span-6 md:col-start-3"><span style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}}>8 TEAMS</span> FROM ACROSS SOUTHERN CALIFORNIA COMPETE in a COD:MWII tournament at the Laser Esports Arena.</span>
+      </p>
       <div className="flex flex-wrap justify-center gap-4 p-5">
         <div className="">
           <a
@@ -22,7 +22,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            {'WATCH THE BATTLE UNFOLD'}
+            {'WATCH THE BATTLE UNFOLD LIVE ON TWITCH.TV'}
           </a>
         </div>
       </div>

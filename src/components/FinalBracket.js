@@ -38,7 +38,6 @@ export default function FinalBracket({ matches, teams }){
                 .cls-finals-9,
                 .cls-finals-3 {
                     font-family: DolceVitaHeavy-Bold, 'Dolce Vita Heavy', 'Dolce Vita A Few Extra Pounds Heavy';
-                    font-weight: 700;
                 }
 
                 .cls-finals-8,

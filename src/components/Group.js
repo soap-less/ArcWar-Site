@@ -43,7 +43,6 @@ export default function Group({groupLetter, matches, teams}) {
                 .cls-3,
                 .cls-5 {
                     font-family: DolceVitaHeavy-Bold, 'Dolce Vita Heavy', 'Dolce Vita A Few Extra Pounds Heavy';
-                    font-weight: 700;
                 }
 
                 .cls-4 {
