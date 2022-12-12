@@ -20,7 +20,7 @@ export default function IVCInfo() {
             </a>
             </div>
             <div className=" col-start-5 col-end-9 ml-10 mt-5 mb-5 hidden md:block">
-            <img src="./arena.jpg" width={300} />
+            <img src="./arena.jpg" width={300} alt={"Photo of Players Competing in the Laser Arena"} />
             </div>
       </div>
     </div>

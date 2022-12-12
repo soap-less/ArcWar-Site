@@ -53,7 +53,7 @@ export default function Home() {
             }}
           >
             <h1 style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}} className="text-2xl sm:text-4xl md:text-5xl">TOURNAMENT BRACKET</h1>
-            <a href="https://challonge.com/IVCArcticWarfare" style={{textDecoration: "underline"}} target="_blank">CLICK TO VIEW IN CHALLONGE.COM</a>
+            <a href="https://challonge.com/IVCArcticWarfare" style={{textDecoration: "underline"}} target="_blank" rel="noreferrer">CLICK TO VIEW IN CHALLONGE.COM</a>
           </div>
         </div>
         <div className="xl:col-span-6 col-span-12 py-10 ">
