@@ -2,32 +2,27 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <div aria-label="Site Nav" className=" bg-black/60 px-6 sm:px-6 lg:px-8">
-      <div className="relative flex h-16 items-center justify-between">
-        <div className="relative flex grid basis-full grid-cols-2">
-          <div>
-            <Link href="/">
-              <span className="sr-only">Logo</span>
-              <img
-                src="ArcWar-LettermarkSVG.svg"
-                alt="The Valley Finals Logo"
-                className="h-auto w-16"
-              />
+    <div aria-label="Site Nav" className=" bg-black/60 px-3 sm:px-6 lg:px-8">
+      <div className="relative flex h-16 items-center justify-between" style={{letterSpacing: "2px"}}>
+        <div className="relative flex justify-between basis-full">
+            <Link href="/"  className="h-auto w-12 md:w-16 2xl:w-24 flex justify-items-start align-center">
+                <img
+                  src="ArcWar-LettermarkSVG.svg"
+                  alt="Arctic Warfare Logo"
+                />
             </Link>
-          </div>
           <div className="flex justify-end">
             <ul
               style={{
                 fontFamily: "Dolce Vita Light",
                 color: "white",
               }}
-              className="flex items-center text-sm font-medium"
+              className="flex items-center text-sm 2xl:text-xl font-medium"
             >
               <li>
                 <Link
                   className="rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
                   href="https://www.twitch.tv/ivc_esports"
-                  target="_blank"
                 >
                   {" "}
                   Watch{" "}
@@ -37,7 +32,7 @@ export default function Nav() {
               <li>
                 <Link
                   className=" rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
-                  href="https://challonge.com/IVCArcticWarfare"
+                  href="/bracket"
                   target="_blank"
                 >
                   {" "}

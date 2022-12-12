@@ -9,7 +9,7 @@ export default function Banner() {
     },
     {
       id: 2,
-      image: "./teams/csumb-transparent.png",
+      image: "./teams/IVC.png",
     },
     {
       id: 3,
@@ -17,15 +17,15 @@ export default function Banner() {
     },
     {
       id: 4,
-      image: "/teams/lmu.png",
+      image: "/teams/LBSU.png",
     },
     {
       id: 5,
-      image: "/teams/SDSU.png",
+      image: "/teams/VVC.png",
     },
     {
       id: 6,
-      image: "/teams/sfsu-transparent.png",
+      image: "/teams/CalStateLA.svg",
     },
   ];
   return (

@@ -1,15 +1,15 @@
 export default function About() {
   return (
-    <div className="line-height:1 overflow-x-hidden flex flex-col items-center justify-center text-center lg:h-full pb-4 sm:p-5">
-      <p
+    <div className="line-height:1 overflow-x-hidden flex flex-col items-center justify-center text-center lg:h-full py-4 sm:p-5">
+      <a
         style={{
           fontFamily: "Dolce Vita Light",
           color: "white",
         }}
         className="py-4 text-2xl font-bold sm:text-3xl"
       >
-        <span style={{fontFamily: "Gogh", color: "white"}}>8 TEAMS</span> FROM ACROSS SOUTHERN CALIFORNIA COMPETE<br /> in a COD:MWII tournament at the Laser Esports Arena.
-      </p>
+        <span style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}}>8 TEAMS</span> FROM ACROSS SOUTHERN CALIFORNIA COMPETE<br /> in a COD:MWII tournament at the Laser Esports Arena.
+      </a>
       <div className="flex flex-wrap justify-center gap-4 p-5">
         <div className="">
           <a

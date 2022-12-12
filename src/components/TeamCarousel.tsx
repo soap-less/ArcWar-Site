@@ -9,11 +9,12 @@ const useStyles = createStyles((theme) => ({
     height: "100%",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between",
-    alignItems: "flex-start",
+    justifyContent: "center",
+    alignItems: "center",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
     backgroundColor: "transparent",
+    backgroundPosition: "center"
   },
 }));
 
@@ -45,7 +46,7 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
     <Carousel
       slideSize="33%"
       breakpoints={[{ slideSize: "33%" }]}
-      height={mobile ? 100 : 200}
+      height={mobile ? 100 : 150}
       slideGap="sm"
       align="start"
       slidesToScroll={mobile ? 3 : 3}

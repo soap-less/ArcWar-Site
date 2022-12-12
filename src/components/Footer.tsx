@@ -1,35 +1,13 @@
+
 export default function Footer() {
   return (
-    <footer className="bg-black/60 ">
-      <div className="mx-10 grid gap-4 lg:grid-cols-8 lg:gap-0">
-        <div className="mt-5 mb-5 text-center text-white sm:col-end-5 sm:text-left lg:col-start-2 lg:mx-6 ">
-          <h5
-            className="mb-2 font-bold uppercase"
-            style={{ fontFamily: "Dolce Vita" }}
-          >
-            What is Irvine Valley College (IVC) Esports?
-          </h5>
-          <p
-            className="mt-5"
-            style={{
-              fontFamily: "Dolce Vita Light",
-            }}
-          >
-            Students and faculty involved in the IVC Esports program are part of
-            a 100+ member team that brings esports to Irvine Valley College
-            through competition, career development, and community building.
-          </p>
-        </div>
-        <div className=" col-start-5 col-end-9 ml-10 mt-5 mb-5 hidden md:block">
-          <img src="./arena.jpg" className="rounded-2xl" width={300} />
-        </div>
-      </div>
-      <div className="flex justify-center space-x-2 bg-black/60 p-4 text-center text-white">
-        <a href="https://discord.gg/YngTK56EYZ" role="button">
+    <footer className="bg-black/90 ">
+      <div className="flex justify-center space-x-2 p-4 text-center text-white ">
+        <a  href="https://discord.gg/YngTK56EYZ" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
-            className="color: #7289da; h-7 w-7"
+            className="color: #7289da; 2xl:h-12 h-7 2xl:w-12 w-7"
           >
             <path
               fill="currentColor"
@@ -37,11 +15,11 @@ export default function Footer() {
             />
           </svg>
         </a>
-        <a href="https://www.instagram.com/ivc_esports/" role="button">
+        <a  href="https://www.instagram.com/ivc_esports/" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            className="color: #c13584; h-7 w-7"
+            className="color: #c13584; 2xl:h-12 h-7 2xl:w-12 w-7"
           >
             {" "}
             <path
@@ -50,11 +28,11 @@ export default function Footer() {
             />
           </svg>
         </a>
-        <a href="https://goo.gl/maps/FUVcN1yK3cCDTz9K9" role="button">
+        <a  href="https://goo.gl/maps/FUVcN1yK3cCDTz9K9" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 488 512"
-            className="color: #ea4335; h-7 w-7"
+            className="color: #ea4335; 2xl:h-12 h-7 3xl:w-12 w-7"
           >
             <path
               fill="currentColor"
@@ -62,14 +40,14 @@ export default function Footer() {
             />
           </svg>
         </a>
-        <a
+        <a 
           href="https://www.youtube.com/channel/UC0IycIg2D1VIasDHN4E7loQ"
           role="button"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"
-            className="color: #ff0000; h-7 w-7"
+            className="color: #ff0000; 2xl:h-12 h-7 2xl:w-12 w-7"
           >
             <path
               fill="currentColor"
@@ -77,11 +55,11 @@ export default function Footer() {
             />
           </svg>
         </a>
-        <a href="https://www.twitter.com/ivcesports/" role="button">
+        <a  href="https://www.twitter.com/ivcesports/" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
-            className="color: #1da1f2; h-7 w-7"
+            className="color: #1da1f2; 2xl:h-12 h-7 2xl:w-12 w-7"
           >
             <path
               fill="currentColor"
@@ -89,11 +67,11 @@ export default function Footer() {
             />
           </svg>
         </a>
-        <a href="https://www.twitch.tv/ivc_esports/" role="button">
+        <a  href="https://www.twitch.tv/ivc_esports/" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
-            className="color: #9146ff; h-7 w-7"
+            className="color: #9146ff; 2xl:h-12 h-7 2xl:w-12 w-7"
           >
             <path
               fill="currentColor"

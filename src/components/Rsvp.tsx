@@ -1,6 +1,6 @@
 export default function Rsvp() {
   return (
-    <div className="line-height: 1 relative flex flex-col items-center justify-center overflow-visible pb-12 text-center sm:h-full lg:h-full">
+    <div className="line-height: 1 relative flex flex-col items-center justify-center overflow-visible pb-12 pt-10 text-center sm:h-full lg:h-full">
       <h1
         style={{
           fontFamily: "Gogh",
@@ -11,7 +11,7 @@ export default function Rsvp() {
       >
         SAVE THE DATE
       </h1>
-      <p
+      <a
         style={{
           fontFamily: "Dolce Vita Light",
 
@@ -21,8 +21,8 @@ export default function Rsvp() {
       >
         {" "}
         December 17, 2022
-      </p>
-      <p
+      </a>
+      <a
         style={{
           fontFamily: "Dolce Vita Light",
           color: "white",
@@ -30,8 +30,8 @@ export default function Rsvp() {
         className="text-2xl sm:text-3xl"
       >
         11:00 AM - 8:00 PM PST
-      </p>
-      <p
+      </a>
+      <a
         style={{
           fontFamily: "Dolce Vita Light",
 
@@ -40,7 +40,7 @@ export default function Rsvp() {
         className=" text-2xl sm:text-3xl"
       >
         Location: Laser Esports Arena
-      </p>
+      </a>
       <div className="mt-10 flex flex-wrap justify-center gap-4">
         <a
           style={{

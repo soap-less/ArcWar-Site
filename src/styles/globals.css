@@ -17,7 +17,7 @@
   }
   
   @font-face {
-    font-family: "Dolce Vita Bold";
+    font-family: "Dolce Vita Heavy";
     font-style: normal;
     font-weight: 400;
     src: url("/fonts/Dolce-Vita-Heavy-Bold.woff2") format("woff2");
@@ -29,9 +29,9 @@
     font-weight: 400;
     src: url("/fonts/Gogh-ExtraBold.ttf") format("truetype");
   }
-  
-  * {
-    letter-spacing: 2px;
+
+  html {
+    background: url('/background.png');
+    background-size: cover;
+    background-attachment: fixed;
   }
-  
-  html {}
