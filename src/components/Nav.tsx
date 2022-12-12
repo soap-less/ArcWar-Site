@@ -23,6 +23,7 @@ export default function Nav() {
                 <Link
                   className="rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
                   href="https://www.twitch.tv/ivc_esports"
+                  target="_blank"
                 >
                   {" "}
                   Watch{" "}
@@ -33,7 +34,6 @@ export default function Nav() {
                 <Link
                   className=" rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
                   href="/bracket"
-                  target="_blank"
                 >
                   {" "}
                   Bracket{" "}
