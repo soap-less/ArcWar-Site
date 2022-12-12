@@ -37,16 +37,6 @@ export default function Banner() {
             alt="logo"
             className="mx-auto w-[500px]"
           />
-          <h2
-            style={{
-              fontFamily: "MontLI",
-              color: "white",
-            }}
-            className="sm:block, mt-4 text-4xl"
-          >
-            {" "}
-            A ROCKET LEAGUE CHAMPIONSHIP{" "}
-          </h2>
         </div>
         <div className="flex flex-col">
           <div className="mt-10 grid grid-cols-10">

@@ -9,7 +9,7 @@ export default function Nav() {
             <Link href="/">
               <span className="sr-only">Logo</span>
               <img
-                src="tv.png"
+                src="ArcWar-LettermarkSVG.svg"
                 alt="The Valley Finals Logo"
                 className="h-auto w-16"
               />
@@ -18,45 +18,36 @@ export default function Nav() {
           <div className="flex justify-end">
             <ul
               style={{
-                fontFamily: "MontLI",
+                fontFamily: "Dolce Vita Light",
                 color: "white",
               }}
               className="flex items-center text-sm font-medium"
             >
               <li>
                 <Link
-                  className="rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
-                  href="https://www.twitch.tv/videos/1657616572?t=00h01m49s"
-                >
-                  {" "}
-                  VOD{" "}
-                </Link>
-              </li>
-              <li className="sm:hidden">-</li>
-              <li>
-                <Link
-                  className="rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
-                  href="https://drive.google.com/drive/folders/1-LLC9cignmZyxQjWptwBDSDkLAVCPzfO?usp=share_link"
-                >
-                  {" "}
-                  Gallery{" "}
-                </Link>
-              </li>
-              <li className="sm:hidden">-</li>
-              <li>
-                <Link
-                  className=" rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
-                  href="https://www.communitygaming.io/tournament/the-valley-a-rocket-league-championship"
+                  className="rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
+                  href="https://www.twitch.tv/ivc_esports"
                   target="_blank"
                 >
                   {" "}
-                  Brackets{" "}
+                  Watch{" "}
                 </Link>
               </li>
               <li className="sm:hidden">-</li>
               <li>
                 <Link
-                  className="rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
+                  className=" rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
+                  href="https://challonge.com/IVCArcticWarfare"
+                  target="_blank"
+                >
+                  {" "}
+                  Bracket{" "}
+                </Link>
+              </li>
+              <li className="sm:hidden">-</li>
+              <li>
+                <Link
+                  className="rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
                   href="https://forms.gle/eWdnhABkQwTjZGpy7"
                   target="_blank"
                 >
@@ -67,12 +58,12 @@ export default function Nav() {
               <li className="sm:hidden">-</li>
               <li>
                 <Link
-                  className="rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
-                  href="#sponsors"
-                  scroll={false}
+                  className="rounded-lg px-2 py-2 hover:text-gray-400 sm:px-3"
+                  href="https://drive.google.com/drive/folders/1Wr_Vtj_IMpQPladClg2xmaW90VmPfVDZ?usp=sharing"
+                  target="_blank"
                 >
                   {" "}
-                  Partners{" "}
+                  Press Kit{" "}
                 </Link>
               </li>
             </ul>

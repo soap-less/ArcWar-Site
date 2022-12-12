@@ -43,8 +43,8 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
   const autoplay = useRef(Autoplay({ delay: 3500 }));
   return (
     <Carousel
-      slideSize="25%"
-      breakpoints={[{ slideSize: "25%" }]}
+      slideSize="33%"
+      breakpoints={[{ slideSize: "33%" }]}
       height={mobile ? 100 : 200}
       slideGap="sm"
       align="start"

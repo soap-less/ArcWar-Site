@@ -1,20 +1,19 @@
-import { type NextPage } from "next";
+import type { NextPage } from "next";
 import Head from "next/head";
 import Nav from "../components/Nav";
 import Banner from "../components/Banner";
 import About from "../components/About";
 import Rsvp from "../components/Rsvp";
 import Footer from "../components/Footer";
-import Sponsors from "../components/Sponsors";
 
 const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>The Valley | A Rocket League Championship</title>
+        <title>Arctic Warfare | An IVC Tournament</title>
         <meta
           name="description"
-          content="A Rocket League Championship by Irvine Valley College"
+          content="A Modern Warfare II Collegiate Tournament by Irvine Valley College"
         />
         <link
           rel="apple-touch-icon"
@@ -37,14 +36,13 @@ const Home: NextPage = () => {
       </Head>
       <div
         className="w-screen bg-cover"
-        style={{ backgroundImage: `url('/bg.svg')` }}
+        style={{ backgroundImage: `url('/background.png')`, backgroundAttachment: "fixed" }}
       >
         <Nav />
         <div className="grid grid-cols-1 mx-2 sm:gap-10 p-5">
           <Banner />
           <About />
           <Rsvp />
-          <Sponsors />
         </div>
         <Footer />
       </div>

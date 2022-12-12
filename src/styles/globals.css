@@ -3,30 +3,35 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Mont";
+    font-family: "Dolce Vita";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/Mont-HeavyDEMO.otf") format("opentype");
+    src: url("/fonts/Dolce-Vita.woff2") format("woff2");
   }
   
   @font-face {
-    font-family: "MontLi";
+    font-family: "Dolce Vita Light";
     font-style: normal;
     font-weight: 100;
-    src: url("/fonts/Mont-ExtraLightDEMO.otf") format("opentype");
+    src: url("/fonts/Dolce-Vita-Light.woff2") format("woff2");
   }
   
   @font-face {
-    font-family: "TheBoldFont";
+    font-family: "Dolce Vita Bold";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/THEBOLDFONT.ttf") format("opentype");
+    src: url("/fonts/Dolce-Vita-Heavy-Bold.woff2") format("woff2");
   }
   
   @font-face {
-    font-family: "The Next Font";
+    font-family: "Gogh";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/TheNextFont.ttf") format("opentype");
+    src: url("/fonts/Gogh-ExtraBold.ttf") format("truetype");
   }
   
+  * {
+    letter-spacing: 2px;
+  }
+  
+  html {}

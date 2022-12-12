@@ -5,14 +5,14 @@ export default function Footer() {
         <div className="mt-5 mb-5 text-center text-white sm:col-end-5 sm:text-left lg:col-start-2 lg:mx-6 ">
           <h5
             className="mb-2 font-bold uppercase"
-            style={{ fontFamily: "Mont" }}
+            style={{ fontFamily: "Dolce Vita" }}
           >
             What is Irvine Valley College (IVC) Esports?
           </h5>
           <p
             className="mt-5"
             style={{
-              fontFamily: "MontLI",
+              fontFamily: "Dolce Vita Light",
             }}
           >
             Students and faculty involved in the IVC Esports program are part of
