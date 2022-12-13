@@ -30,10 +30,36 @@ function Card({ image }: CardProps) {
   );
 }
 
-export type TeamCarouselProps = {
-  teams: { id: number; image: string }[];
-};
-export default function TeamCarousel({ teams }: TeamCarouselProps) {
+export type TeamCarouselProps = { id: number; image: string }[];
+
+export default function TeamCarousel() {
+  const teams:TeamCarouselProps = [
+    {
+      id: 1,
+      image: "/teams/bronco-transparent.png",
+    },
+    {
+      id: 2,
+      image: "./teams/IVC.png",
+    },
+    {
+      id: 3,
+      image: "./teams/csusb-transparent.png",
+    },
+    {
+      id: 4,
+      image: "/teams/LBSU.png",
+    },
+    {
+      id: 5,
+      image: "/teams/VVC.png",
+    },
+    {
+      id: 6,
+      image: "/teams/CalStateLA.svg",
+    },
+  ];
+
   const theme = useMantineTheme();
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm}px)`);
   const slides = teams.map((team) => (
@@ -45,10 +71,10 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
   return (
     <Carousel
       slideSize="33%"
-      breakpoints={[{ slideSize: "33%" }]}
+      breakpoints={[{ slideSize: "26%" }]}
       height={mobile ? 100 : 150}
       slideGap="sm"
-      align="start"
+      align="center"
       slidesToScroll={mobile ? 3 : 3}
       loop
       dragFree

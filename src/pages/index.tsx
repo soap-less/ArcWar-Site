@@ -6,6 +6,7 @@ import About from "../components/About";
 import Rsvp from "../components/Rsvp";
 import Footer from "../components/Footer";
 import IVCInfo from "../components/IVCInfo";
+import Twitch from "../components/Twitch";
 
 const Home: NextPage = () => {
   return (
@@ -20,8 +21,9 @@ const Home: NextPage = () => {
       <div
         style={{ letterSpacing: "2px" }}
       >
-        <div className="grid grid-cols-1 mx-2 sm:gap-10 p-5">
+        <div className="grid grid-cols-1 mx-2 sm:gap-10 p-2 md:p-5">
           <Banner />
+          {Date.now() / 1000 >= 1671303000 ? <Twitch /> : <></>}
           <About />
           <Rsvp />
         </div>

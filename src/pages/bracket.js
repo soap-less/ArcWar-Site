@@ -31,10 +31,25 @@ export default function Home() {
         name="description"
         content="Arctic Warfare: A COD: Modern Warfare II Collegiate Tournament by Irvine Valley College"
       />
-    </Head>
-    <div style={{height: "100vh"}}>
-      <h1 className="text-4xl" style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}}>LOADING...</h1>
-    </div>
+    </Head>      
+    <div className="grid grid-cols-12 mx-2 sm:gap-10 p-5" style={{minHeight: "100vh"}}>
+        <div className="col-span-12 py-4 pt-8">
+          <div className="py-4 font-bold text-base sm:text-2xl md:text-3xl"
+            style={{
+              fontFamily: "Dolce Vita Light",
+              color: "white",
+              letterSpacing: "2px", 
+              textAlign: "center"
+            }}
+          >
+            <h1 style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}} className="text-2xl sm:text-4xl md:text-5xl">TOURNAMENT BRACKET</h1>
+            <a href="https://challonge.com/IVCArcticWarfare" style={{textDecoration: "underline"}} target="_blank" rel="noreferrer">CLICK TO VIEW IN CHALLONGE.COM</a>
+          </div>
+        </div>
+      <div className="flex justify-center items-center" style={{height: "100vh", width: "100vw"}}>
+        <h1 className="text-4xl" style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}}>LOADING...</h1>
+      </div>
+      </div>
   </>
   if (matchesError) return <>{toString(matchesError)}</>;
   if (teamsError) return <>{toString(teamsError)}</>;
@@ -67,14 +82,16 @@ export default function Home() {
             <a href="https://challonge.com/IVCArcticWarfare" style={{textDecoration: "underline"}} target="_blank" rel="noreferrer">CLICK TO VIEW IN CHALLONGE.COM</a>
           </div>
         </div>
-        <div className="xl:col-span-6 col-span-12 py-10 ">
+        <div className="2xl:col-start-2 2xl:col-span-5 md:col-start-2 md:col-span-10 col-span-12 py-10 2xl:pb-0">
           <Group groupLetter={"A"} matches={matches.filter((match) => match.match.group_id === groupIds[0])} teams={teams}/>
         </div>
-        <div class="xl:col-span-6 col-span-12 py-10 ">
+        <div class="2xl:col-span-5 md:col-start-2 md:col-span-10 col-span-12 py-10 2xl:border-t-0 border-t-2 2xl:pb-0">
           <Group groupLetter={"B"} matches={matches.filter((match) => match.match.group_id === groupIds[1])} teams={teams}/>
         </div>
-        <div class="md:col-start-2 md:col-span-10 py-10 col-span-12 border-t-2">
-          <FinalBracket matches={matches.filter((match) => !match.match.group_id)} teams={teams}/>
+        <div class="md:col-start-2 md:col-span-10 py-10 col-span-12 border-t-2 flex justify-center">
+          <div class="2xl:w-4/5 w-full">
+            <FinalBracket matches={matches.filter((match) => !match.match.group_id)} teams={teams}/>
+          </div>
         </div>
       </div>
     </>

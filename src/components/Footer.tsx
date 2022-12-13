@@ -1,9 +1,9 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-black/90 ">
-      <div className="flex justify-center space-x-2 p-4 text-center text-white ">
-        <a  href="https://discord.gg/YngTK56EYZ" role="button">
+    <footer className="bg-black/90 " style={{position: "absolute", bottom: 0, left:0, width: "100vw"}}>
+      <div className="flex justify-center items-center space-x-4 text-center text-white h-20">
+        <a href="https://discord.gg/YngTK56EYZ" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
