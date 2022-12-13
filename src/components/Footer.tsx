@@ -1,7 +1,7 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-black/90 " style={{position: "absolute", bottom: 0, left:0, width: "100vw"}}>
+    <footer className="bg-black/90 " style={{position: "absolute", bottom: 0, left:0, width: "100%"}}>
       <div className="flex justify-center items-center space-x-4 text-center text-white h-20">
         <a href="https://discord.gg/YngTK56EYZ" role="button">
           <svg
