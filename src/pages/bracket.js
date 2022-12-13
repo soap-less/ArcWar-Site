@@ -24,7 +24,18 @@ export default function Home() {
     revalidateOnReconnect: false
   });
 
-  if (!matches || !teams) return <></>
+  if (!matches || !teams) return <>
+    <Head>
+      <title>Arctic Warfare | Bracket</title>
+      <meta
+        name="description"
+        content="Arctic Warfare: A COD: Modern Warfare II Collegiate Tournament by Irvine Valley College"
+      />
+    </Head>
+    <div style={{height: "100vh"}}>
+      <h1 className="text-4xl" style={{fontFamily: "Gogh", color: "white", letterSpacing: "0px"}}>LOADING...</h1>
+    </div>
+  </>
   if (matchesError) return <>{toString(matchesError)}</>;
   if (teamsError) return <>{toString(teamsError)}</>;
 
