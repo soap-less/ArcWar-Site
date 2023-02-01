@@ -20,7 +20,7 @@ export default function Rsvp() {
         className="text-2xl sm:text-3xl"
       >
         {" "}
-        December 17, 2022
+        Late Winter 2023 (TBD)
       </a>
       <a
         style={{

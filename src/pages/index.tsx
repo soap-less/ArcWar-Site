@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       >
         <div className="grid grid-cols-1 mx-2 sm:gap-10 p-2 md:p-5">
           <Banner />
-          {Date.now() / 1000 >= 1671303000 ? <Twitch /> : <></>}
+          {/*Date.now() / 1000 >= 1671303000 ? <Twitch /> : <></>*/}
           <About />
           <Rsvp />
         </div>

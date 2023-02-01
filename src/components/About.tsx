@@ -3,12 +3,13 @@ import TeamCarousel from "./TeamCarousel";
 export default function About() {
   return (
     <div className="line-height:1 overflow-x-hidden flex-col grid grid-cols-10 items-center justify-center text-center lg:h-full py-4 sm:p-5">
-      { Date.now() / 1000 < 1671303000
-        ? <div className="md:col-span-6 md:col-start-3 lg:col-span-4 lg:col-start-4 col-span-10">
+      {
+        // Date.now() / 1000 < 1671303000 &&
+        <div className="md:col-span-6 md:col-start-3 lg:col-span-4 lg:col-start-4 col-span-10 py-5">
           <TeamCarousel />
         </div>
-        : <></>
       }
+
       <div className="col-span-10 grid grid-cols-10">
         <p
           style={{
